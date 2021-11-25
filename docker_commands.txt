@@ -1,0 +1,2 @@
+docker build . -t pwpush
+docker run -p 5100:5100 pwpush

@@ -44,17 +44,6 @@
             </li>
           <% end %>
         <% end %>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle px-2 text-muted" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <em class='bi-translate'></em>
-            <%= _('Language') %>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <% I18n.available_locales.each do |lang| %>
-              <li class='dropdown-item'><%= link_to Settings.language_codes[lang], url_for(locale: lang.to_s), hreflang: lang.to_s, rel: 'alternate', class: "nav-link text-muted" %></li>
-            <% end %>
-          </ul>
-        </li>
       </ul>
   </header>
 </div>

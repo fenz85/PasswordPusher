@@ -14,7 +14,8 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources
 RUN apt-get update -qq && \
     apt-get install -qq -y --assume-yes build-essential apt-utils libpq-dev git curl tzdata libsqlite3-0 libsqlite3-dev zlib1g-dev nodejs yarn && \
     cd /opt && \
-    git clone https://github.com/pglombardo/PasswordPusher.git && \
+    mkdir PasswordPusher && \
+    mkdir PasswordPusher/log && \
     touch ${APP_ROOT}/log/private.log
 
 EXPOSE 5100
@@ -29,8 +30,14 @@ ENV RAILS_ENV=private
 RUN bundle config set without 'development production test'
 RUN bundle config set deployment 'true'
 
+COPY Gemfile Gemfile.lock .
 RUN bundle install
+
+COPY app.json package.json babel.config.js yarn.lock .
 RUN yarn install
+
+COPY . .
+
 RUN bundle exec rails webpacker:compile
 RUN bundle exec rake db:setup
 

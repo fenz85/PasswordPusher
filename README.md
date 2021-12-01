@@ -1,6 +1,6 @@
 <div align="center">
 
-![Password Pusher Front Page](https://disznc.s3.amazonaws.com/Screen-Shot-2021-07-04-at-9.04.09-PM.png)
+![PWSend Front Page](https://disznc.s3.amazonaws.com/Screen-Shot-2021-07-04-at-9.04.09-PM.png)
 
 [![](https://badgen.net/twitter/follow/pwpush)](https://twitter.com/pwpush)
 ![](https://badgen.net/github/stars/pglombardo/PasswordPusher)
@@ -13,17 +13,17 @@
 [![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/pglombardo/pwpush-cli/releases)
 [![License](https://img.shields.io/github/license/pglombardo/PasswordPusher)](https://github.com/pglombardo/pwpush/blob/master/LICENSE)
 
-Password Pusher is an opensource application to communicate passwords over the web. Links to passwords expire after a certain number of views and/or time has passed.
+PWSend is an opensource application to communicate passwords over the web. Links to passwords expire after a certain number of views and/or time has passed.
 
 Hosted at [pwpush.com](https://pwpush.com) but you can also easily run your own private instance with just a few steps.
 
-Follow Password Pusher [on Twitter](https://twitter.com/pwpush) or [on Facebook](https://www.facebook.com/pwpush) for the latest news, updates and changes.
+Follow PWSend [on Twitter](https://twitter.com/pwpush) or [on Facebook](https://www.facebook.com/pwpush) for the latest news, updates and changes.
 
 </div>
 
 # How to Use
 
-You can access Password Pusher at [pwpush.com](https://pwpush.com) or alternatively use one of the tools below.
+You can access PWSend at [pwpush.com](https://pwpush.com) or alternatively use one of the tools below.
 
 To run your own instance, see [Run Your Own Instance](#-run-your-own-instance) in the next section.
 
@@ -55,11 +55,11 @@ To run your own instance, see [Run Your Own Instance](#-run-your-own-instance) i
 
 # 💾 Run Your Own Instance
 
-_Note: Password Pusher can be largely configured by environment variables so after you pick your deployment method below, make sure to read [the configuration page](Configuration.md).  Take particular attention in setting your own custom encryption key which isn't required but provides the best security for your instance._
+_Note: PWSend can be largely configured by environment variables so after you pick your deployment method below, make sure to read [the configuration page](Configuration.md).  Take particular attention in setting your own custom encryption key which isn't required but provides the best security for your instance._
 
 ## On Docker
 
-Docker images of Password Pusher are available on [Docker hub](https://hub.docker.com/u/pglombardo).
+Docker images of PWSend are available on [Docker hub](https://hub.docker.com/u/pglombardo).
 
 **➜ ephemeral**
 
@@ -91,7 +91,7 @@ here](https://github.com/pglombardo/PasswordPusher/tree/master/containers/kubern
 
 ## On Microsoft Azure
 
-See [this blog post](https://tamethe.cloud/pwpush-host-your-own-using-azure-containers/) on how to deploy Password Pusher to Azure by Craig McLaren.
+See [this blog post](https://tamethe.cloud/pwpush-host-your-own-using-azure-containers/) on how to deploy PWSend to Azure by Craig McLaren.
 
 ## On OpenShift
 
@@ -103,7 +103,7 @@ One click deploy to [Heroku Cloud](https://www.heroku.com) without having to set
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pglombardo/PasswordPusher)
 
-_This option will deploy a production Password Pusher instance backed by a postgres database to Heroku.  As is monthly cost: $0._
+_This option will deploy a production PWSend instance backed by a postgres database to Heroku.  As is monthly cost: $0._
 
 ## From Source
 

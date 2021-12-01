@@ -1,6 +1,6 @@
 # Tools & Applications
 
-Using the JSON API, various tools exist to interface with Password Pusher to automate password distribution.
+Using the JSON API, various tools exist to interface with PWSend to automate password distribution.
 
 We have no limits on how many passwords you can push (and have no intentions of adding limits) but we do have a rate limiter so the site doesn't get taken down by bad scripts or bad actors.  Limit your tools to maximum 1 password every few seconds and you should be fine.
 
@@ -32,9 +32,9 @@ Some great command line utilities written by the community.
 
 ## Raw API
 
-This API allows you to interface with Password Pusher via JSON.  This can be utilized by existing utilities such as curl, wget or even javascript.  See the examples below for some ideas.
+This API allows you to interface with PWSend via JSON.  This can be utilized by existing utilities such as curl, wget or even javascript.  See the examples below for some ideas.
 
-* [The Password Pusher JSON API](https://github.com/pglombardo/PasswordPusher/wiki/Password-API)
+* [The PWSend JSON API](https://github.com/pglombardo/PasswordPusher/wiki/Password-API)
 
 ### Examples
 
@@ -46,7 +46,7 @@ curl -X POST --data "password[payload]=mypassword&password[expire_after_days]=2&
 
 #### Browser JS Console
 
-You can test this in your browsers' Javascript console by going to the front page of Password Pusher and enter:
+You can test this in your browsers' Javascript console by going to the front page of PWSend and enter:
 
 ```
 $.post('https://pwpush.com/p.json',

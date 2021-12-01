@@ -64,11 +64,11 @@ msgstr "La contraseña se eliminó y la URL secreta caducó."
 #: ../../../app/views/layouts/naked.html.erb:6
 #: ../../../app/views/shared/_email_footer.html.erb:5
 #: ../../../app/views/shared/_header.html.erb:12
-msgid "Password Pusher"
+msgid "PWSend"
 msgstr "Empujador de Contraseña"
 
 #: ../../../app/models/feedback.rb:15
-msgid "Password Pusher Feedback"
+msgid "PWSend Feedback"
 msgstr "Comentarios sobre el Empujador de Contraseña"
 
 #: ../../../app/views/dashboard/active.html.erb:1
@@ -179,7 +179,7 @@ msgid "Just kidding!"
 msgstr "¡Es una broma!"
 
 #: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:6
-msgid "Never have to do anything like that ever again with Password Pusher."
+msgid "Never have to do anything like that ever again with PWSend."
 msgstr "Nunca más tendrás que hacer algo así con Empujador de Contraseña."
 
 #: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:8
@@ -340,7 +340,7 @@ msgstr "¡Deje este campo en blanco!"
 #: ../../../app/views/layouts/login.html.erb:16
 #: ../../../app/views/layouts/naked.html.erb:16
 msgid ""
-"Password Pusher is an application to securely send passwords over the web. Lin"
+"PWSend is an application to securely send passwords over the web. Lin"
 "ks to passwords expire after a certain number of views and/or time has passed."
 msgstr ""
 "Empujador de Contraseña es una aplicación para enviar contraseñas de forma seg"
@@ -348,7 +348,7 @@ msgstr ""
 "pasado un cierto número de visitas y / o tiempo."
 
 #: ../../../app/views/pages/about.html.erb:1
-msgid "About Password Pusher"
+msgid "About PWSend"
 msgstr "Acerca de Empujador de Contraseña"
 
 #: ../../../app/views/pages/about.html.erb:2
@@ -358,7 +358,7 @@ msgstr "Sobre Nosotros"
 
 #: ../../../app/views/pages/about.html.erb:7
 msgid ""
-"Password Pusher is an application to communicate passwords over the web. Links"
+"PWSend is an application to communicate passwords over the web. Links"
 " to passwords\n"
 "            expire after a certain number of views and/or time has passed."
 msgstr ""
@@ -420,7 +420,7 @@ msgid "Contributors"
 msgstr "Contribuyentes"
 
 #: ../../../app/views/pages/about.html.erb:41
-msgid "Password Pusher has had a great community of contributors over the years."
+msgid "PWSend has had a great community of contributors over the years."
 msgstr ""
 "Empujador de Contraseña ha tenido una gran comunidad de colaboradores a lo lar"
 "go de los años."
@@ -460,7 +460,7 @@ msgstr "De lejos, la mayor ayuda es correr la voz"
 
 #: ../../../app/views/pages/about.html.erb:56
 msgid ""
-"Share and suggest Password Pusher to colleagues and friends.  If you are givin"
+"Share and suggest PWSend to colleagues and friends.  If you are givin"
 "g a presentation or writing a blog post, feel free to contact me for any quest"
 "ions."
 msgstr ""
@@ -473,7 +473,7 @@ msgid "You can also"
 msgstr "Tú también puedes"
 
 #: ../../../app/views/pages/about.html.erb:62
-msgid "Follow Password Pusher on"
+msgid "Follow PWSend on"
 msgstr "Siga Empujador de Contraseña en"
 
 #: ../../../app/views/pages/about.html.erb:67
@@ -499,7 +499,7 @@ msgid "Help translating a current or new language for the site."
 msgstr "Ayuda a traducir un idioma nuevo o actual para el sitio."
 
 #: ../../../app/views/pages/about.html.erb:78
-msgid "Thank you for supporting Password Pusher!"
+msgid "Thank you for supporting PWSend!"
 msgstr "¡Gracias por apoyar Empujador de Contraseña!"
 
 #: ../../../app/views/pages/about.html.erb:83
@@ -511,7 +511,7 @@ msgid "Coming up on 10 Years"
 msgstr "Próximamente en 10 años"
 
 #: ../../../app/views/pages/about.html.erb:87
-msgid "The first git commit to Password Pusher was on"
+msgid "The first git commit to PWSend was on"
 msgstr "El primer compromiso de git con Empujador de Contraseña estaba activado"
 
 #: ../../../app/views/pages/about.html.erb:92
@@ -548,11 +548,11 @@ msgid "Trust and Security"
 msgstr "Confianza y Seguridad"
 
 #: ../../../app/views/pages/faq.html.erb:11
-msgid "What purpose does Password Pusher serve?"
+msgid "What purpose does PWSend serve?"
 msgstr "¿Para qué sirve Empujador de Contraseña?"
 
 #: ../../../app/views/pages/faq.html.erb:16
-msgid "Password Pusher exists as a better alternative to emailing passwords."
+msgid "PWSend exists as a better alternative to emailing passwords."
 msgstr ""
 "Empujador de Contraseña existe como una mejor alternativa al envío de contrase"
 "ñas por correo electrónico."
@@ -606,11 +606,11 @@ msgstr ""
 " su control."
 
 #: ../../../app/views/pages/faq.html.erb:29
-msgid "By using Password Pusher, you bypass all of this."
+msgid "By using PWSend, you bypass all of this."
 msgstr "Al usar Empujador de Contraseña, omite todo esto."
 
 #: ../../../app/views/pages/faq.html.erb:31
-msgid "For each password posted to Password Pusher, "
+msgid "For each password posted to PWSend, "
 msgstr "Para cada contraseña publicada en Empujador de Contraseña,"
 
 #: ../../../app/views/pages/faq.html.erb:32
@@ -640,7 +640,7 @@ msgstr ""
 "es a continuación."
 
 #: ../../../app/views/pages/faq.html.erb:47
-msgid "Trust is a concern. Why should I use Password Pusher?"
+msgid "Trust is a concern. Why should I use PWSend?"
 msgstr ""
 "La confianza es una preocupación. ¿Por qué debería utilizar Empujador de Contr"
 "aseña?"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: ../../../app/views/pages/faq.html.erb:55
 msgid ""
-"Password Pusher exists as a better alternative to emailing passwords. It avoid"
+"PWSend exists as a better alternative to emailing passwords. It avoid"
 "s having passwords exist in email archives in perpetuity. It does not exist as"
 " a end-all security solution."
 msgstr ""
@@ -665,7 +665,7 @@ msgstr ""
 "va."
 
 #: ../../../app/views/pages/faq.html.erb:59
-msgid "Password Pusher is opensource"
+msgid "PWSend is opensource"
 msgstr "Empujador de Contraseña es de código abierto"
 
 #: ../../../app/views/pages/faq.html.erb:60
@@ -725,12 +725,12 @@ msgid "Tools, Utilities and Applications"
 msgstr "Herramientas, Utilidades y Aplicaciones"
 
 #: ../../../app/views/pages/faq.html.erb:89
-msgid "Are there other ways I can access Password Pusher outside of a browser?"
+msgid "Are there other ways I can access PWSend outside of a browser?"
 msgstr "¿Hay otras formas de acceder a Empujador de Contraseña fuera de un navegador?"
 
 #: ../../../app/views/pages/faq.html.erb:95
 msgid ""
-"Absolutely.  Password Pusher has a number of applications and command line uti"
+"Absolutely.  PWSend has a number of applications and command line uti"
 "lities (CLI) that interface with pwpush.com or privately run instances.  Push "
 "passwords from the CLI, Slack, Alfred App and more."
 msgstr ""
@@ -757,7 +757,7 @@ msgstr "¿Puedo automatizar la distribución de mi contraseña?"
 #: ../../../app/views/pages/faq.html.erb:109
 msgid ""
 "Yes. Using the previously mentioned tools, many users and organizations integr"
-"ate Password Pusher into their security policies and processes."
+"ate PWSend into their security policies and processes."
 msgstr ""
 "Si. Con las herramientas mencionadas anteriormente, muchos usuarios y organiza"
 "ciones integran Empujador de Contraseña en sus políticas y procesos de segurid"
@@ -782,13 +782,13 @@ msgstr ""
 "egura de contraseñas."
 
 #: ../../../app/views/pages/faq.html.erb:117
-msgid "How many requests can I send to Password Pusher?"
+msgid "How many requests can I send to PWSend?"
 msgstr "¿Cuántas solicitudes puedo enviar a Empujador de Contraseña?"
 
 #: ../../../app/views/pages/faq.html.erb:122
 msgid ""
 "There are no limits currently and I have no intention of adding any.  To minim"
-"ally assure site stability, Password Pusher is configured with a rate limiter "
+"ally assure site stability, PWSend is configured with a rate limiter "
 "by default."
 msgstr ""
 "Actualmente no hay límites y no tengo intención de agregar ninguno. Para asegu"
@@ -831,15 +831,15 @@ msgstr "¿Existe alguna restricción de licencia para mí, mi empresa o mi organ
 msgid ""
 "The source code is released under the GNU General Public License v3.0 and that"
 " pretty much defines any and all limitations. There are quite a few rebranded "
-"and redesigned clone sites of Password Pusher and I welcome them all."
+"and redesigned clone sites of PWSend and I welcome them all."
 msgstr ""
 "El código fuente se publica bajo la Licencia Pública General GNU v3.0 y eso de"
 "fine prácticamente todas y cada una de las limitaciones. Hay bastantes sitios "
-"de clonación de Password Pusher renombrados y rediseñados y les doy la bienven"
+"de clonación de PWSend renombrados y rediseñados y les doy la bienven"
 "ida a todos."
 
 #: ../../../app/views/pages/faq.html.erb:169
-msgid "Why would I want to run my own private instance of Password Pusher?"
+msgid "Why would I want to run my own private instance of PWSend?"
 msgstr ""
 "¿Por qué querría ejecutar mi propia instancia privada de Empujador de Contrase"
 "ña?"
@@ -872,7 +872,7 @@ msgstr ""
 
 #: ../../../app/views/pages/faq.html.erb:191
 msgid ""
-"Running an private instance of Password Pusher for your company or organizatio"
+"Running an private instance of PWSend for your company or organizatio"
 "n gives you the peace of mind that you know exactly what code is running.  You"
 " can configure and run it as you like."
 msgstr ""
@@ -915,7 +915,7 @@ msgid "Other"
 msgstr "Otro"
 
 #: ../../../app/views/pages/faq.html.erb:206
-msgid "Can I use Password Pusher in my talk/presentation/conference?"
+msgid "Can I use PWSend in my talk/presentation/conference?"
 msgstr "¿Puedo usar Empujador de Contraseña en mi charla / presentación / conferencia?"
 
 #: ../../../app/views/pages/faq.html.erb:211
@@ -1006,14 +1006,14 @@ msgstr "Genere una Clave de Cifrado"
 #: ../../../app/views/pages/generate_key.html.erb:6
 msgid ""
 "This page is used as a helper tool to generate a random encryption key for pri"
-"vately hosted instances of Password Pusher."
+"vately hosted instances of PWSend."
 msgstr ""
 "Esta página se utiliza como herramienta auxiliar para generar una clave de cif"
-"rado aleatoria para instancias alojadas de forma privada de Password Pusher."
+"rado aleatoria para instancias alojadas de forma privada de PWSend."
 
 #: ../../../app/views/pages/generate_key.html.erb:10
 msgid ""
-"Password Pusher encrypts sensitive data in the database.  This requires a rand"
+"PWSend encrypts sensitive data in the database.  This requires a rand"
 "omly generated encryption key for each application instance."
 msgstr ""
 "Empujador de Contraseña cifra los datos confidenciales de la base de datos. Es"
@@ -1026,7 +1026,7 @@ msgid ""
 "r instance."
 msgstr ""
 "Puede utilizar el código generado aleatoriamente a continuación para configura"
-"r su instancia de Password Pusher."
+"r su instancia de PWSend."
 
 #: ../../../app/views/pages/generate_key.html.erb:22
 msgid "Generated Encryption Key"
@@ -1061,10 +1061,10 @@ msgstr ""
 
 #: ../../../app/views/pages/generate_key.html.erb:55
 msgid ""
-"The best security for private instances of Password Pusher is to use your own "
+"The best security for private instances of PWSend is to use your own "
 "custom encryption key although it is not required."
 msgstr ""
-"La mejor seguridad para las instancias privadas de Password Pusher es utilizar"
+"La mejor seguridad para las instancias privadas de PWSend es utilizar"
 " su propia clave de cifrado personalizada, aunque no es necesaria."
 
 #: ../../../app/views/pages/generate_key.html.erb:58
@@ -1106,7 +1106,7 @@ msgstr "Herramientas y Aplicaciones"
 
 #: ../../../app/views/pages/tools.html.erb:5
 msgid ""
-"Using the JSON API, various tools exist to interface with Password Pusher to a"
+"Using the JSON API, various tools exist to interface with PWSend to a"
 "utomate password distribution."
 msgstr ""
 "Usando la API JSON, existen varias herramientas para interactuar con Empujador"
@@ -1135,7 +1135,7 @@ msgstr "Aplicaciones"
 
 #: ../../../app/views/pages/tools.html.erb:83
 msgid ""
-"This API allows you to interface with Password Pusher via JSON.  This can be u"
+"This API allows you to interface with PWSend via JSON.  This can be u"
 "tilized by existing utilities such as curl, wget or any programming language. "
 " See the examples below for some ideas."
 msgstr ""
@@ -1145,7 +1145,7 @@ msgstr ""
 "s ideas."
 
 #: ../../../app/views/pages/tools.html.erb:86
-msgid "The Password Pusher JSON API"
+msgid "The PWSend JSON API"
 msgstr "La API JSON de Empujador de Contraseña"
 
 #: ../../../app/views/pages/tools.html.erb:89
@@ -1155,7 +1155,7 @@ msgstr "Ejemplos"
 #: ../../../app/views/pages/tools.html.erb:98
 msgid ""
 "You can test this in your browser Javascript console by going to the front pag"
-"e of Password Pusher and enter:"
+"e of PWSend and enter:"
 msgstr ""
 "Puede probar esto en la consola de JavaScript de su navegador yendo a la págin"
 "a principal de Empujador de Contraseña e ingresando:"
@@ -1165,7 +1165,7 @@ msgid "See more explanation and examples in our"
 msgstr "Vea más explicaciones y ejemplos en nuestro"
 
 #: ../../../app/views/pages/translate.html.erb:1
-msgid "Help Translate Password Pusher!"
+msgid "Help Translate PWSend!"
 msgstr "¡Ayuda a traducir Empujador de Contraseña!"
 
 #: ../../../app/views/pages/translate.html.erb:3
@@ -1261,7 +1261,7 @@ msgstr ""
 "lizados en la aplicación."
 
 #: ../../../app/views/pages/translate.html.erb:61
-msgid "Thanks for helping to translate Password Pusher!"
+msgid "Thanks for helping to translate PWSend!"
 msgstr "¡Gracias por ayudarnos a traducir Empujador de Contraseña!"
 
 #: ../../../app/views/passwords/audit.html.erb:1
@@ -1758,7 +1758,7 @@ msgid "Send Feeback"
 msgstr "Enviar Comentario"
 
 #: ../../../app/views/shared/_header.html.erb:8
-msgid "Password Pusher Logo"
+msgid "PWSend Logo"
 msgstr "Logo de Empujador de Contraseña"
 
 #: ../../../app/views/shared/_header.html.erb:14

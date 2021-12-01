@@ -34,7 +34,7 @@ mail:
 
   # Configure the e-mail address which will be shown as 'From' in emails
   # See config/initializers/devise.rb where this is used
-  # mailer_sender: '"Password Pusher" <pglombardo@pwpush.com>'
+  # mailer_sender: '"PWSend" <pglombardo@pwpush.com>'
 
 language_codes:
   da: 'Dansk'

@@ -102,6 +102,6 @@ group :production do
   gem 'sentry-rails'
 end
 
-group :private do
-  gem 'pg'
-end
+#group :private do
+#  gem 'pg'
+#end

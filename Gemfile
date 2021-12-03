@@ -103,5 +103,5 @@ group :production do
 end
 
 group :private do
-  gem 'sqlite3'
+   gem 'sqlite3', :group => [:development, :test]
 end

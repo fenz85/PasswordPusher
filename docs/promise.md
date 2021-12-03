@@ -2,9 +2,9 @@
 
 July 2021
 
-As we're coming up now on [10 years of PWSend](https://twitter.com/pwpush/status/1402331907824701447), there are some guiding principles that have always been followed but haven't been documented (until now).
+As we're coming up now on [10 years of SafePass](https://twitter.com/pwpush/status/1402331907824701447), there are some guiding principles that have always been followed but haven't been documented (until now).
 
-As I continue to develop PWSend, adding new features and functionality, there are some tenets that I will continue to stay true to:
+As I continue to develop SafePass, adding new features and functionality, there are some tenets that I will continue to stay true to:
 
 **1. Zero Distraction Password Reveal Page**
 
@@ -18,7 +18,7 @@ So in this vein, we will always make sure to keep the password reveal page as si
 
 **2. An Accessible and Easy to Deploy Application**
 
-PWSend is by origins an [opensource application](https://github.com/pglombardo/PasswordPusher) that is often forked, modified and deployed internally (and externally) at various organizations.  This is great and as always I'll continue to support this as I've done in the past.
+SafePass is by origins an [opensource application](https://github.com/pglombardo/PasswordPusher) that is often forked, modified and deployed internally (and externally) at various organizations.  This is great and as always I'll continue to support this as I've done in the past.
 
 As of June 2021, we now have [automated docker builds](https://hub.docker.com/u/pglombardo) and support a [large number of deployment targets](https://github.com/pglombardo/PasswordPusher#-run-your-own-instance).
 

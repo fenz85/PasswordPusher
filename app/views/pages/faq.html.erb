@@ -8,12 +8,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="purpose-question">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#purpose-answer" aria-expanded="false" aria-controls="purpose-answer">
-        <%= _('What purpose does PWSend serve?') %>
+        <%= _('What purpose does SafePass serve?') %>
       </button>
     </h2>
     <div id="purpose-answer" class="accordion-collapse collapse" aria-labelledby="purpose-question">
       <div class="accordion-body">
-        <p><%= _('PWSend exists as a better alternative to emailing passwords.') %></p>
+        <p><%= _('SafePass exists as a better alternative to emailing passwords.') %></p>
 
         <p><strong><%= _('Emailing passwords is inherently insecure.') %></strong> <%= _('The greatest risks include') %>:</p>
 
@@ -26,9 +26,9 @@
 
         <p><%= _('The same risks persist when sending passwords via SMS, WhatsApp, Telegram, Chat etc…  The data can and is often perpetual and out of your control.') %></p>
 
-        <p><strong><%= _('By using PWSend, you bypass all of this.') %></strong></p>
+        <p><strong><%= _('By using SafePass, you bypass all of this.') %></strong></p>
 
-        <p><%= _('For each password posted to PWSend, ') %>
+        <p><%= _('For each password posted to SafePass, ') %>
           <strong><%= _('a unique URL is generated that only you will know') %></strong>. 
           <%= _('Additionally, ') %>
           <strong>
@@ -44,7 +44,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="trust-question">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#trust-answer" aria-expanded="false" aria-controls="trust-answer">
-        <%= _('Trust is a concern. Why should I use PWSend?') %>
+        <%= _('Trust is a concern. Why should I use SafePass?') %>
       </button>
     </h2>
     <div id="trust-answer" class="accordion-collapse collapse" aria-labelledby="trust-question">
@@ -52,11 +52,11 @@
         <p><%= _('And rightfully so. All good security begins with healthy skepticism of all involved components.') %></p>
 
         <p>
-          <%= _('PWSend exists as a better alternative to emailing passwords. It avoids having passwords exist in email archives in perpetuity. It does not exist as a end-all security solution.') %>
+          <%= _('SafePass exists as a better alternative to emailing passwords. It avoids having passwords exist in email archives in perpetuity. It does not exist as a end-all security solution.') %>
         </p>
 
         <p>
-          <%= link_to _('PWSend is opensource'), "http://www.rubyonrails.org/", target: "_blank" %>
+          <%= link_to _('SafePass is opensource'), "http://www.rubyonrails.org/", target: "_blank" %>
           <%= _('so the source can be publicly reviewed and can alternatively be run internally in your organization.') %>
         </p>
 
@@ -86,13 +86,13 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="access-question">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#access-answer" aria-expanded="false" aria-controls="access-answer">
-        <%= _('Are there other ways I can access PWSend outside of a browser?') %>
+        <%= _('Are there other ways I can access SafePass outside of a browser?') %>
       </button>
     </h2>
     <div id="access-answer" class="accordion-collapse collapse" aria-labelledby="access-question">
       <div class="accordion-body">
         <p>
-          <%= _('Absolutely.  PWSend has a number of applications and command line utilities (CLI) that interface with pwpush.com or privately run instances.  Push passwords from the CLI, Slack, Alfred App and more.') %>
+          <%= _('Absolutely.  SafePass has a number of applications and command line utilities (CLI) that interface with pwpush.com or privately run instances.  Push passwords from the CLI, Slack, Alfred App and more.') %>
         </p>
         <p><%= _('See our') %> <a href="/pages/tools"><%= _('Tools and Applications') %></a> <%= _('page for more details.') %></p>
       </div>
@@ -106,7 +106,7 @@
     </h2>
     <div id="automate-answer" class="accordion-collapse collapse" aria-labelledby="automate-question">
       <div class="accordion-body">
-        <p><%= _('Yes. Using the previously mentioned tools, many users and organizations integrate PWSend into their security policies and processes.') %></p>
+        <p><%= _('Yes. Using the previously mentioned tools, many users and organizations integrate SafePass into their security policies and processes.') %></p>
         <p><%= _('The') %> <a href="/pages/tools"><%= _('Tools') %></a> <%= _('page outlines the resources available to automate the secure distribution of passwords.') %></p>
       </div>
     </div>
@@ -114,12 +114,12 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="rate-question">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rate-answer" aria-expanded="false" aria-controls="rate-answer">
-        <%= _('How many requests can I send to PWSend?') %>
+        <%= _('How many requests can I send to SafePass?') %>
       </button>
     </h2>
     <div id="rate-answer" class="accordion-collapse collapse" aria-labelledby="rate-question">
       <div class="accordion-body">
-        <p><%= _('There are no limits currently and I have no intention of adding any.  To minimally assure site stability, PWSend is configured with a rate limiter by default.') %></p>
+        <p><%= _('There are no limits currently and I have no intention of adding any.  To minimally assure site stability, SafePass is configured with a rate limiter by default.') %></p>
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@
     <div id="licensing-answer" class="accordion-collapse collapse" aria-labelledby="licensing-question">
       <div class="accordion-body">
         <p>
-          <%= _('The source code is released under the GNU General Public License v3.0 and that pretty much defines any and all limitations. There are quite a few rebranded and redesigned clone sites of PWSend and I welcome them all.') %>
+          <%= _('The source code is released under the GNU General Public License v3.0 and that pretty much defines any and all limitations. There are quite a few rebranded and redesigned clone sites of SafePass and I welcome them all.') %>
         </p>
       </div>
     </div>
@@ -166,7 +166,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="why-private-question">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#why-private-answer" aria-expanded="false" aria-controls="why-private-answer">
-        <%= _('Why would I want to run my own private instance of PWSend?') %>
+        <%= _('Why would I want to run my own private instance of SafePass?') %>
       </button>
     </h2>
     <div id="why-private-answer" class="accordion-collapse collapse" aria-labelledby="why-private-question">
@@ -188,7 +188,7 @@
     </h2>
     <div id="internal-risk-answer" class="accordion-collapse collapse" aria-labelledby="internal-risk-question">
       <div class="accordion-body">
-        <p><%= _('Running an private instance of PWSend for your company or organization gives you the peace of mind that you know exactly what code is running.  You can configure and run it as you like.') %></p>
+        <p><%= _('Running an private instance of SafePass for your company or organization gives you the peace of mind that you know exactly what code is running.  You can configure and run it as you like.') %></p>
         <p><%= _('On the other hand, if your instance gets hacked, malicious entities now have a targeted dictionary of passwords to brute force accounts in your organization.  Note that this would be limited to pushes which haven\'t yet hit their expiration limits.') %></p>
         <p><%= _('In this respect, the public instance at pwpush.com is may be superior that it contains only passwords without identifying information mixed among users from around the globe.') %></p>
         <p><%= _('The user should carefully weigh the pros and cons and decide which route is best for them.  We happily support both strategies.') %></p>
@@ -203,7 +203,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="presentation-question">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#presentation-answer" aria-expanded="false" aria-controls="presentation-answer">
-        <%= _('Can I use PWSend in my talk/presentation/conference?') %>
+        <%= _('Can I use SafePass in my talk/presentation/conference?') %>
       </button>
     </h2>
     <div id="presentation-answer" class="accordion-collapse collapse" aria-labelledby="presentation-question">

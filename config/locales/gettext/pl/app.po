@@ -65,11 +65,11 @@ msgstr "Hasło zostało usunięte, a tajny adres URL wygasł."
 #: ../../../app/views/layouts/naked.html.erb:6
 #: ../../../app/views/shared/_email_footer.html.erb:5
 #: ../../../app/views/shared/_header.html.erb:12
-msgid "PWSend"
+msgid "SafePass"
 msgstr "Przekazywacz Haseł"
 
 #: ../../../app/models/feedback.rb:15
-msgid "PWSend Feedback"
+msgid "SafePass Feedback"
 msgstr "Opinia o Przekazywaczu Haseł"
 
 #: ../../../app/views/dashboard/active.html.erb:1
@@ -180,7 +180,7 @@ msgid "Just kidding!"
 msgstr "Żartuję!"
 
 #: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:6
-msgid "Never have to do anything like that ever again with PWSend."
+msgid "Never have to do anything like that ever again with SafePass."
 msgstr ""
 "Nigdy więcej nie musisz robić czegoś takiego dzięki funkcji Przekazywacza Hase"
 "ł."
@@ -339,15 +339,15 @@ msgstr "Zostaw to pole puste!"
 #: ../../../app/views/layouts/login.html.erb:16
 #: ../../../app/views/layouts/naked.html.erb:16
 msgid ""
-"PWSend is an application to securely send passwords over the web. Lin"
+"SafePass is an application to securely send passwords over the web. Lin"
 "ks to passwords expire after a certain number of views and/or time has passed."
 msgstr ""
 "Przekazywacz Haseł to aplikacja do przekazywania haseł przez Internet. Linki d"
 "o haseł wygasają po upływie określonej liczby wyświetleń i/lub czasu."
 
 #: ../../../app/views/pages/about.html.erb:1
-msgid "About PWSend"
-msgstr "O PWSend"
+msgid "About SafePass"
+msgstr "O SafePass"
 
 #: ../../../app/views/pages/about.html.erb:2
 #: ../../../app/views/shared/_footer.html.erb:31
@@ -356,7 +356,7 @@ msgstr "O"
 
 #: ../../../app/views/pages/about.html.erb:7
 msgid ""
-"PWSend is an application to communicate passwords over the web. Links"
+"SafePass is an application to communicate passwords over the web. Links"
 " to passwords\n"
 "            expire after a certain number of views and/or time has passed."
 msgstr ""
@@ -414,7 +414,7 @@ msgid "Contributors"
 msgstr "Współtwórcy"
 
 #: ../../../app/views/pages/about.html.erb:41
-msgid "PWSend has had a great community of contributors over the years."
+msgid "SafePass has had a great community of contributors over the years."
 msgstr "Przekazywacz Haseł od lat ma wspaniałą społeczność współtwórców."
 
 #: ../../../app/views/pages/about.html.erb:42
@@ -452,7 +452,7 @@ msgstr "Zdecydowanie największą pomocą jest rozpowszechnianie informacji"
 
 #: ../../../app/views/pages/about.html.erb:56
 msgid ""
-"Share and suggest PWSend to colleagues and friends.  If you are givin"
+"Share and suggest SafePass to colleagues and friends.  If you are givin"
 "g a presentation or writing a blog post, feel free to contact me for any quest"
 "ions."
 msgstr ""
@@ -465,7 +465,7 @@ msgid "You can also"
 msgstr "Możesz również"
 
 #: ../../../app/views/pages/about.html.erb:62
-msgid "Follow PWSend on"
+msgid "Follow SafePass on"
 msgstr "Obserwować Przekazywacza Haseł na"
 
 #: ../../../app/views/pages/about.html.erb:67
@@ -489,7 +489,7 @@ msgid "Help translating a current or new language for the site."
 msgstr "Pomóc w tłumaczeniu istniejącego lub nowego języka witryny."
 
 #: ../../../app/views/pages/about.html.erb:78
-msgid "Thank you for supporting PWSend!"
+msgid "Thank you for supporting SafePass!"
 msgstr "Dziękujemy za wsparcie narzędzia Przekazywacz Haseł!"
 
 #: ../../../app/views/pages/about.html.erb:83
@@ -501,7 +501,7 @@ msgid "Coming up on 10 Years"
 msgstr "Zbliża się 10 lat"
 
 #: ../../../app/views/pages/about.html.erb:87
-msgid "The first git commit to PWSend was on"
+msgid "The first git commit to SafePass was on"
 msgstr "Pierwsze zatwierdzenie git Przekazywacza Haseł było "
 
 #: ../../../app/views/pages/about.html.erb:92
@@ -536,11 +536,11 @@ msgid "Trust and Security"
 msgstr "Zaufanie i bezpieczeństwo"
 
 #: ../../../app/views/pages/faq.html.erb:11
-msgid "What purpose does PWSend serve?"
+msgid "What purpose does SafePass serve?"
 msgstr "Do czego służy Przekazywacz Haseł?"
 
 #: ../../../app/views/pages/faq.html.erb:16
-msgid "PWSend exists as a better alternative to emailing passwords."
+msgid "SafePass exists as a better alternative to emailing passwords."
 msgstr "Przekazywacz Haseł to lepsza alternatywa dla przesyłania haseł poprzez e-mail."
 
 #: ../../../app/views/pages/faq.html.erb:18
@@ -593,11 +593,11 @@ msgstr ""
 "ą kontrolą."
 
 #: ../../../app/views/pages/faq.html.erb:29
-msgid "By using PWSend, you bypass all of this."
+msgid "By using SafePass, you bypass all of this."
 msgstr "Używając narzędzia Przekazywacz Haseł, omijasz to wszystko."
 
 #: ../../../app/views/pages/faq.html.erb:31
-msgid "For each password posted to PWSend, "
+msgid "For each password posted to SafePass, "
 msgstr "Dla każdego hasła wysłanego przez Przekazywacz Haseł,"
 
 #: ../../../app/views/pages/faq.html.erb:32
@@ -625,7 +625,7 @@ msgstr ""
 "często zadawanymi pytaniami poniżej."
 
 #: ../../../app/views/pages/faq.html.erb:47
-msgid "Trust is a concern. Why should I use PWSend?"
+msgid "Trust is a concern. Why should I use SafePass?"
 msgstr ""
 "Zaufanie jest istotne. Dlaczego powinienem używać narzędzia Przekazywacz Hasel"
 "?"
@@ -640,7 +640,7 @@ msgstr ""
 
 #: ../../../app/views/pages/faq.html.erb:55
 msgid ""
-"PWSend exists as a better alternative to emailing passwords. It avoid"
+"SafePass exists as a better alternative to emailing passwords. It avoid"
 "s having passwords exist in email archives in perpetuity. It does not exist as"
 " a end-all security solution."
 msgstr ""
@@ -648,7 +648,7 @@ msgstr ""
 "ozwala to uniknąć wiecznego istnienia haseł w archiwach poczty e-mail."
 
 #: ../../../app/views/pages/faq.html.erb:59
-msgid "PWSend is opensource"
+msgid "SafePass is opensource"
 msgstr "Przekazywacz Haseł jest oprogramowaniem typu open source."
 
 #: ../../../app/views/pages/faq.html.erb:60
@@ -705,18 +705,18 @@ msgid "Tools, Utilities and Applications"
 msgstr "Narzędzia, programy użytkowe i aplikacje"
 
 #: ../../../app/views/pages/faq.html.erb:89
-msgid "Are there other ways I can access PWSend outside of a browser?"
+msgid "Are there other ways I can access SafePass outside of a browser?"
 msgstr ""
 "Czy są inne sposoby uzyskania dostępu do narzędzia Przekazywacz Haseł poza prz"
 "eglądarką?"
 
 #: ../../../app/views/pages/faq.html.erb:95
 msgid ""
-"Absolutely.  PWSend has a number of applications and command line uti"
+"Absolutely.  SafePass has a number of applications and command line uti"
 "lities (CLI) that interface with pwpush.com or privately run instances.  Push "
 "passwords from the CLI, Slack, Alfred App and more."
 msgstr ""
-"Absolutnie. PWSend zawiera wiele aplikacji i narzędzi wiersza poleceń"
+"Absolutnie. SafePass zawiera wiele aplikacji i narzędzi wiersza poleceń"
 " (CLI), które współpracują z pwpush.com lub uruchamianymi prywatnie instancjam"
 "i. Przesyłaj hasła z CLI, Slacka, aplikacji Alfred i nie tylko."
 
@@ -739,7 +739,7 @@ msgstr "Czy mogę zautomatyzować dystrybucję moich haseł?"
 #: ../../../app/views/pages/faq.html.erb:109
 msgid ""
 "Yes. Using the previously mentioned tools, many users and organizations integr"
-"ate PWSend into their security policies and processes."
+"ate SafePass into their security policies and processes."
 msgstr ""
 "Tak. Korzystając z wcześniej wspomnianych narzędzi, wielu użytkowników i organ"
 "izacji integruje narzędzie Przekazywacz Haseł ze swoimi politykami i procesami"
@@ -764,13 +764,13 @@ msgstr ""
 "seł."
 
 #: ../../../app/views/pages/faq.html.erb:117
-msgid "How many requests can I send to PWSend?"
-msgstr "Ile zapytań mogę wysłać do narzędzia PWSend?"
+msgid "How many requests can I send to SafePass?"
+msgstr "Ile zapytań mogę wysłać do narzędzia SafePass?"
 
 #: ../../../app/views/pages/faq.html.erb:122
 msgid ""
 "There are no limits currently and I have no intention of adding any.  To minim"
-"ally assure site stability, PWSend is configured with a rate limiter "
+"ally assure site stability, SafePass is configured with a rate limiter "
 "by default."
 msgstr ""
 "Obecnie nie ma limitów i nie mam zamiaru ich dodawać. Aby zapewnić minimalną s"
@@ -815,7 +815,7 @@ msgstr ""
 msgid ""
 "The source code is released under the GNU General Public License v3.0 and that"
 " pretty much defines any and all limitations. There are quite a few rebranded "
-"and redesigned clone sites of PWSend and I welcome them all."
+"and redesigned clone sites of SafePass and I welcome them all."
 msgstr ""
 "Kod źródłowy jest udostępniany na licencji GNU General Public License v3.0 i t"
 "o w zasadzie definiuje wszelkie ograniczenia. Istnieje wiele rebrandowanych i "
@@ -823,7 +823,7 @@ msgstr ""
 "iamy."
 
 #: ../../../app/views/pages/faq.html.erb:169
-msgid "Why would I want to run my own private instance of PWSend?"
+msgid "Why would I want to run my own private instance of SafePass?"
 msgstr ""
 "Dlaczego miałbym chcieć uruchomić własną prywatną instancję Przekazywacza Hase"
 "ł?"
@@ -856,7 +856,7 @@ msgstr ""
 
 #: ../../../app/views/pages/faq.html.erb:191
 msgid ""
-"Running an private instance of PWSend for your company or organizatio"
+"Running an private instance of SafePass for your company or organizatio"
 "n gives you the peace of mind that you know exactly what code is running.  You"
 " can configure and run it as you like."
 msgstr ""
@@ -899,9 +899,9 @@ msgid "Other"
 msgstr "Inny"
 
 #: ../../../app/views/pages/faq.html.erb:206
-msgid "Can I use PWSend in my talk/presentation/conference?"
+msgid "Can I use SafePass in my talk/presentation/conference?"
 msgstr ""
-"Czy mogę używać narzędzia PWSend w mojej rozmowie/prezentacji/konfere"
+"Czy mogę używać narzędzia SafePass w mojej rozmowie/prezentacji/konfere"
 "ncji?"
 
 #: ../../../app/views/pages/faq.html.erb:211
@@ -992,14 +992,14 @@ msgstr "Wygeneruj klucz szyfrujący"
 #: ../../../app/views/pages/generate_key.html.erb:6
 msgid ""
 "This page is used as a helper tool to generate a random encryption key for pri"
-"vately hosted instances of PWSend."
+"vately hosted instances of SafePass."
 msgstr ""
 "Ta strona służy jako narzędzie pomocnicze do generowania losowego klucza szyfr"
 "owania dla prywatnie hostowanych instancji narzędzia Przekazywacz Haseł."
 
 #: ../../../app/views/pages/generate_key.html.erb:10
 msgid ""
-"PWSend encrypts sensitive data in the database.  This requires a rand"
+"SafePass encrypts sensitive data in the database.  This requires a rand"
 "omly generated encryption key for each application instance."
 msgstr ""
 "Przekazywacz Haseł szyfruje poufne dane w bazie danych. Wymaga to losowo wygen"
@@ -1046,7 +1046,7 @@ msgstr "Jeśli klucz szyfrowania nie zostanie podany, zostanie użyty klucz domy
 
 #: ../../../app/views/pages/generate_key.html.erb:55
 msgid ""
-"The best security for private instances of PWSend is to use your own "
+"The best security for private instances of SafePass is to use your own "
 "custom encryption key although it is not required."
 msgstr ""
 "Najlepszym zabezpieczeniem prywatnych instancji Przekazywacza Haseł jest użyci"
@@ -1091,7 +1091,7 @@ msgstr "Narzędzia i aplikacje"
 
 #: ../../../app/views/pages/tools.html.erb:5
 msgid ""
-"Using the JSON API, various tools exist to interface with PWSend to a"
+"Using the JSON API, various tools exist to interface with SafePass to a"
 "utomate password distribution."
 msgstr ""
 "Korzystając z interfejsu API JSON, istnieją różne narzędzia do łączenia się z "
@@ -1119,7 +1119,7 @@ msgstr "Aplikacje"
 
 #: ../../../app/views/pages/tools.html.erb:83
 msgid ""
-"This API allows you to interface with PWSend via JSON.  This can be u"
+"This API allows you to interface with SafePass via JSON.  This can be u"
 "tilized by existing utilities such as curl, wget or any programming language. "
 " See the examples below for some ideas."
 msgstr ""
@@ -1129,7 +1129,7 @@ msgstr ""
 "ka pomysłów."
 
 #: ../../../app/views/pages/tools.html.erb:86
-msgid "The PWSend JSON API"
+msgid "The SafePass JSON API"
 msgstr "Przekazywacz Haseł JSON API"
 
 #: ../../../app/views/pages/tools.html.erb:89
@@ -1139,17 +1139,17 @@ msgstr "Przykłady"
 #: ../../../app/views/pages/tools.html.erb:98
 msgid ""
 "You can test this in your browser Javascript console by going to the front pag"
-"e of PWSend and enter:"
+"e of SafePass and enter:"
 msgstr ""
 "Możesz to przetestować w konsoli Javascript w przeglądarce, przechodząc na str"
-"onę główną PWSend i wpisując:"
+"onę główną SafePass i wpisując:"
 
 #: ../../../app/views/pages/tools.html.erb:106
 msgid "See more explanation and examples in our"
 msgstr "Zobacz więcej wyjaśnień i przykładów w naszym"
 
 #: ../../../app/views/pages/translate.html.erb:1
-msgid "Help Translate PWSend!"
+msgid "Help Translate SafePass!"
 msgstr "Pomóż przetłumaczyć Przekazywacz Haseł!"
 
 #: ../../../app/views/pages/translate.html.erb:3
@@ -1240,7 +1240,7 @@ msgstr ""
 "w całości w tłumaczeniu docelowym. Są to kody zastępcze używane w aplikacji."
 
 #: ../../../app/views/pages/translate.html.erb:61
-msgid "Thanks for helping to translate PWSend!"
+msgid "Thanks for helping to translate SafePass!"
 msgstr "Dziękujemy za pomoc w tłumaczeniu narzędzia Przekazywacz Haseł!"
 
 #: ../../../app/views/passwords/audit.html.erb:1
@@ -1736,7 +1736,7 @@ msgid "Send Feeback"
 msgstr "Wyślij opinię"
 
 #: ../../../app/views/shared/_header.html.erb:8
-msgid "PWSend Logo"
+msgid "SafePass Logo"
 msgstr "Logo Przekazywacza Haseł"
 
 #: ../../../app/views/shared/_header.html.erb:14

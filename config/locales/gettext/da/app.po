@@ -64,12 +64,12 @@ msgstr "Adgangskoden er blevet slettet, og den hemmelig URL er udløbet."
 #: ../../../app/views/layouts/naked.html.erb:6
 #: ../../../app/views/shared/_email_footer.html.erb:5
 #: ../../../app/views/shared/_header.html.erb:12
-msgid "PWSend"
-msgstr "PWSend"
+msgid "SafePass"
+msgstr "SafePass"
 
 #: ../../../app/models/feedback.rb:15
-msgid "PWSend Feedback"
-msgstr "PWSend feedback"
+msgid "SafePass Feedback"
+msgstr "SafePass feedback"
 
 #: ../../../app/views/dashboard/active.html.erb:1
 #: ../../../app/views/dashboard/active.html.erb:13
@@ -179,8 +179,8 @@ msgid "Just kidding!"
 msgstr "Bare for sjov!"
 
 #: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:6
-msgid "Never have to do anything like that ever again with PWSend."
-msgstr "Behøver aldrig at gøre noget lignende igen når du bruger PWSend."
+msgid "Never have to do anything like that ever again with SafePass."
+msgstr "Behøver aldrig at gøre noget lignende igen når du bruger SafePass."
 
 #: ../../../app/views/devise/mailer/confirmation_instructions.html.erb:8
 msgid "You can confirm your account email through the link below"
@@ -332,15 +332,15 @@ msgstr "Lad dette felt stå tomt!"
 #: ../../../app/views/layouts/login.html.erb:16
 #: ../../../app/views/layouts/naked.html.erb:16
 msgid ""
-"PWSend is an application to securely send passwords over the web. Lin"
+"SafePass is an application to securely send passwords over the web. Lin"
 "ks to passwords expire after a certain number of views and/or time has passed."
 msgstr ""
-"PWSend er et program til at sende adgangskoder over internettet. Link"
+"SafePass er et program til at sende adgangskoder over internettet. Link"
 "s til adgangskoder udløber efter et vist antal visninger og/eller en periode."
 
 #: ../../../app/views/pages/about.html.erb:1
-msgid "About PWSend"
-msgstr "Om PWSend"
+msgid "About SafePass"
+msgstr "Om SafePass"
 
 #: ../../../app/views/pages/about.html.erb:2
 #: ../../../app/views/shared/_footer.html.erb:31
@@ -349,11 +349,11 @@ msgstr "Om"
 
 #: ../../../app/views/pages/about.html.erb:7
 msgid ""
-"PWSend is an application to communicate passwords over the web. Links"
+"SafePass is an application to communicate passwords over the web. Links"
 " to passwords\n"
 "            expire after a certain number of views and/or time has passed."
 msgstr ""
-"PWSend er et program til at sende adgangskoder over internettet. Link"
+"SafePass er et program til at sende adgangskoder over internettet. Link"
 "s til adgangskoder udløber efter et vist antal visninger og/eller en periode."
 
 #: ../../../app/views/pages/about.html.erb:11
@@ -407,8 +407,8 @@ msgid "Contributors"
 msgstr "Bidragydere"
 
 #: ../../../app/views/pages/about.html.erb:41
-msgid "PWSend has had a great community of contributors over the years."
-msgstr "PWSend har haft et stort fællesskab af bidragydere gennem årene."
+msgid "SafePass has had a great community of contributors over the years."
+msgstr "SafePass har haft et stort fællesskab af bidragydere gennem årene."
 
 #: ../../../app/views/pages/about.html.erb:42
 msgid "Take a look"
@@ -446,11 +446,11 @@ msgstr "Langt den bedste hjælp er at sprede budskabet"
 
 #: ../../../app/views/pages/about.html.erb:56
 msgid ""
-"Share and suggest PWSend to colleagues and friends.  If you are givin"
+"Share and suggest SafePass to colleagues and friends.  If you are givin"
 "g a presentation or writing a blog post, feel free to contact me for any quest"
 "ions."
 msgstr ""
-"Del og foreslå PWSend til kolleger og venner. Holder du et oplæg elle"
+"Del og foreslå SafePass til kolleger og venner. Holder du et oplæg elle"
 "r skriver et blogindlæg, er du velkommen til at kontakte mig hvis du har spørg"
 "smål."
 
@@ -459,8 +459,8 @@ msgid "You can also"
 msgstr "Du kan også"
 
 #: ../../../app/views/pages/about.html.erb:62
-msgid "Follow PWSend on"
-msgstr "Følg PWSend på"
+msgid "Follow SafePass on"
+msgstr "Følg SafePass på"
 
 #: ../../../app/views/pages/about.html.erb:67
 #: ../../../app/views/pages/faq.html.erb:73
@@ -483,8 +483,8 @@ msgid "Help translating a current or new language for the site."
 msgstr "Hjælp med at oversætte et nyt sprog til webstedet."
 
 #: ../../../app/views/pages/about.html.erb:78
-msgid "Thank you for supporting PWSend!"
-msgstr "Tak fordi du støtter PWSend!"
+msgid "Thank you for supporting SafePass!"
+msgstr "Tak fordi du støtter SafePass!"
 
 #: ../../../app/views/pages/about.html.erb:83
 msgid "Upcoming Birthday"
@@ -495,8 +495,8 @@ msgid "Coming up on 10 Years"
 msgstr "Kommer om 10 år"
 
 #: ../../../app/views/pages/about.html.erb:87
-msgid "The first git commit to PWSend was on"
-msgstr "Den første git-commit af PWSend var den"
+msgid "The first git commit to SafePass was on"
+msgstr "Den første git-commit af SafePass var den"
 
 #: ../../../app/views/pages/about.html.erb:92
 msgid "pwpush.com went live shortly thereafter."
@@ -532,13 +532,13 @@ msgid "Trust and Security"
 msgstr "Tillid og sikkerhed"
 
 #: ../../../app/views/pages/faq.html.erb:11
-msgid "What purpose does PWSend serve?"
-msgstr "Hvilket formål har PWSend?"
+msgid "What purpose does SafePass serve?"
+msgstr "Hvilket formål har SafePass?"
 
 #: ../../../app/views/pages/faq.html.erb:16
-msgid "PWSend exists as a better alternative to emailing passwords."
+msgid "SafePass exists as a better alternative to emailing passwords."
 msgstr ""
-"PWSend eksisterer som et bedre alternativ til at sende adgangskoder v"
+"SafePass eksisterer som et bedre alternativ til at sende adgangskoder v"
 "ia e-mail."
 
 #: ../../../app/views/pages/faq.html.erb:18
@@ -587,12 +587,12 @@ msgstr ""
 "rol."
 
 #: ../../../app/views/pages/faq.html.erb:29
-msgid "By using PWSend, you bypass all of this."
-msgstr "Ved at bruge PWSend undgår du alt dette."
+msgid "By using SafePass, you bypass all of this."
+msgstr "Ved at bruge SafePass undgår du alt dette."
 
 #: ../../../app/views/pages/faq.html.erb:31
-msgid "For each password posted to PWSend, "
-msgstr "For hver adgangskode, der sendes til PWSend,"
+msgid "For each password posted to SafePass, "
+msgstr "For hver adgangskode, der sendes til SafePass,"
 
 #: ../../../app/views/pages/faq.html.erb:32
 msgid "a unique URL is generated that only you will know"
@@ -621,8 +621,8 @@ msgstr ""
 "e spørgsmål nedenfor."
 
 #: ../../../app/views/pages/faq.html.erb:47
-msgid "Trust is a concern. Why should I use PWSend?"
-msgstr "Spørgsmålet er tillid. Hvorfor skal jeg bruge PWSend?"
+msgid "Trust is a concern. Why should I use SafePass?"
+msgstr "Spørgsmålet er tillid. Hvorfor skal jeg bruge SafePass?"
 
 #: ../../../app/views/pages/faq.html.erb:52
 msgid ""
@@ -634,16 +634,16 @@ msgstr ""
 
 #: ../../../app/views/pages/faq.html.erb:55
 msgid ""
-"PWSend exists as a better alternative to emailing passwords. It avoid"
+"SafePass exists as a better alternative to emailing passwords. It avoid"
 "s having passwords exist in email archives in perpetuity. It does not exist as"
 " a end-all security solution."
 msgstr ""
-"PWSend eksisterer som et bedre alternativ til at sende adgangskoder v"
+"SafePass eksisterer som et bedre alternativ til at sende adgangskoder v"
 "ia e-mail. Man undgår, at adgangskoder gemmes i e-mail-arkiver til evig tid."
 
 #: ../../../app/views/pages/faq.html.erb:59
-msgid "PWSend is opensource"
-msgstr "PWSend er opensource"
+msgid "SafePass is opensource"
+msgstr "SafePass er opensource"
 
 #: ../../../app/views/pages/faq.html.erb:60
 msgid ""
@@ -700,16 +700,16 @@ msgid "Tools, Utilities and Applications"
 msgstr "Værktøjer, hjælpeprogrammer og applikationer"
 
 #: ../../../app/views/pages/faq.html.erb:89
-msgid "Are there other ways I can access PWSend outside of a browser?"
-msgstr "Er der andre måder, jeg kan få adgang til PWSend uden for en browser?"
+msgid "Are there other ways I can access SafePass outside of a browser?"
+msgstr "Er der andre måder, jeg kan få adgang til SafePass uden for en browser?"
 
 #: ../../../app/views/pages/faq.html.erb:95
 msgid ""
-"Absolutely.  PWSend has a number of applications and command line uti"
+"Absolutely.  SafePass has a number of applications and command line uti"
 "lities (CLI) that interface with pwpush.com or privately run instances.  Push "
 "passwords from the CLI, Slack, Alfred App and more."
 msgstr ""
-"Absolut. PWSend har en række applikationer og kommandolinjeværktøjer "
+"Absolut. SafePass har en række applikationer og kommandolinjeværktøjer "
 "(CLI), der der kan benyttes med pwpush.com eller privatdrevne instanser. Push "
 "adgangskoder fra CLI, Slack, Alfred App og mere."
 
@@ -732,10 +732,10 @@ msgstr "Kan jeg automatisere min adgangskodedistribution?"
 #: ../../../app/views/pages/faq.html.erb:109
 msgid ""
 "Yes. Using the previously mentioned tools, many users and organizations integr"
-"ate PWSend into their security policies and processes."
+"ate SafePass into their security policies and processes."
 msgstr ""
 "Ja. Ved at bruge de tidligere nævnte værktøjer integrerer mange brugere og org"
-"anisationer PWSend i deres sikkerhedspolitikker og -processer."
+"anisationer SafePass i deres sikkerhedspolitikker og -processer."
 
 #: ../../../app/views/pages/faq.html.erb:110
 #: ../../../app/views/pages/faq.html.erb:241
@@ -756,17 +756,17 @@ msgstr ""
 "tion af adgangskoder."
 
 #: ../../../app/views/pages/faq.html.erb:117
-msgid "How many requests can I send to PWSend?"
-msgstr "Hvor mange anmodninger kan jeg sende til PWSend?"
+msgid "How many requests can I send to SafePass?"
+msgstr "Hvor mange anmodninger kan jeg sende til SafePass?"
 
 #: ../../../app/views/pages/faq.html.erb:122
 msgid ""
 "There are no limits currently and I have no intention of adding any.  To minim"
-"ally assure site stability, PWSend is configured with a rate limiter "
+"ally assure site stability, SafePass is configured with a rate limiter "
 "by default."
 msgstr ""
 "Der er ingen grænser i øjeblikket, og jeg har ingen intentioner om at tilføje "
-"nogen. For  at sikre webstedets stabilitet er PWSend som standard kon"
+"nogen. For  at sikre webstedets stabilitet er SafePass som standard kon"
 "figureret med en belastningsbegrænsning."
 
 #: ../../../app/views/pages/faq.html.erb:128
@@ -807,15 +807,15 @@ msgstr ""
 msgid ""
 "The source code is released under the GNU General Public License v3.0 and that"
 " pretty much defines any and all limitations. There are quite a few rebranded "
-"and redesigned clone sites of PWSend and I welcome them all."
+"and redesigned clone sites of SafePass and I welcome them all."
 msgstr ""
 "Kildekoden er udgivet under GNU General Public License v3.0, og det definerer "
 "stort set alle begrænsninger. Der er en del redesignede klonsider af Password "
 "Pusher, og jeg byder dem alle velkommen."
 
 #: ../../../app/views/pages/faq.html.erb:169
-msgid "Why would I want to run my own private instance of PWSend?"
-msgstr "Hvorfor skulle jeg køre min egen private udgave af PWSend?"
+msgid "Why would I want to run my own private instance of SafePass?"
+msgstr "Hvorfor skulle jeg køre min egen private udgave af SafePass?"
 
 #: ../../../app/views/pages/faq.html.erb:175
 msgid ""
@@ -843,11 +843,11 @@ msgstr "Hvilke sikkerhedsrisici kan der være ved at køre min egen version inte
 
 #: ../../../app/views/pages/faq.html.erb:191
 msgid ""
-"Running an private instance of PWSend for your company or organizatio"
+"Running an private instance of SafePass for your company or organizatio"
 "n gives you the peace of mind that you know exactly what code is running.  You"
 " can configure and run it as you like."
 msgstr ""
-"At køre en privat udgave af PWSend for din virksomhed eller organisat"
+"At køre en privat udgave af SafePass for din virksomhed eller organisat"
 "ion giver dig ro i sindet. Du ved præcis, hvilken kode der kører og du kan kon"
 "figurere og køre det, som du vil."
 
@@ -886,8 +886,8 @@ msgid "Other"
 msgstr "Andre"
 
 #: ../../../app/views/pages/faq.html.erb:206
-msgid "Can I use PWSend in my talk/presentation/conference?"
-msgstr "Kan jeg bruge PWSend i min tale/præsentation/konference?"
+msgid "Can I use SafePass in my talk/presentation/conference?"
+msgstr "Kan jeg bruge SafePass i min tale/præsentation/konference?"
 
 #: ../../../app/views/pages/faq.html.erb:211
 msgid ""
@@ -977,17 +977,17 @@ msgstr "Generer en krypteringsnøgle"
 #: ../../../app/views/pages/generate_key.html.erb:6
 msgid ""
 "This page is used as a helper tool to generate a random encryption key for pri"
-"vately hosted instances of PWSend."
+"vately hosted instances of SafePass."
 msgstr ""
 "Denne side bruges som et hjælpeværktøj til at generere en tilfældige krypterin"
-"gsnøgler til privat hostede udgaver af PWSend."
+"gsnøgler til privat hostede udgaver af SafePass."
 
 #: ../../../app/views/pages/generate_key.html.erb:10
 msgid ""
-"PWSend encrypts sensitive data in the database.  This requires a rand"
+"SafePass encrypts sensitive data in the database.  This requires a rand"
 "omly generated encryption key for each application instance."
 msgstr ""
-"PWSend krypterer følsomme data i databasen. Dette kræver en tilfældig"
+"SafePass krypterer følsomme data i databasen. Dette kræver en tilfældig"
 "t genereret krypteringsnøgle for hver applikationsforekomst."
 
 #: ../../../app/views/pages/generate_key.html.erb:14
@@ -1031,10 +1031,10 @@ msgstr ""
 
 #: ../../../app/views/pages/generate_key.html.erb:55
 msgid ""
-"The best security for private instances of PWSend is to use your own "
+"The best security for private instances of SafePass is to use your own "
 "custom encryption key although it is not required."
 msgstr ""
-"Den bedste sikkerhed for private udgaver af PWSend er at bruge din eg"
+"Den bedste sikkerhed for private udgaver af SafePass er at bruge din eg"
 "en tilpassede krypteringsenøgle. Dette er dog ikke påkrævet."
 
 #: ../../../app/views/pages/generate_key.html.erb:58
@@ -1074,7 +1074,7 @@ msgstr "Værktøjer og applikationer"
 
 #: ../../../app/views/pages/tools.html.erb:5
 msgid ""
-"Using the JSON API, various tools exist to interface with PWSend to a"
+"Using the JSON API, various tools exist to interface with SafePass to a"
 "utomate password distribution."
 msgstr ""
 "Ved hjælp af JSON API findes der forskellige værktøjer til at interface med Pa"
@@ -1102,18 +1102,18 @@ msgstr "Applikationer"
 
 #: ../../../app/views/pages/tools.html.erb:83
 msgid ""
-"This API allows you to interface with PWSend via JSON.  This can be u"
+"This API allows you to interface with SafePass via JSON.  This can be u"
 "tilized by existing utilities such as curl, wget or any programming language. "
 " See the examples below for some ideas."
 msgstr ""
-"Denne API giver dig mulighed for at interface med PWSend via JSON. De"
+"Denne API giver dig mulighed for at interface med SafePass via JSON. De"
 "tte kan bruges af eksisterende hjælpeprogrammer såsom curl, wget eller et hvil"
 "ket som helst programmeringssprog. Se eksemplerne nedenfor for at få nogle ide"
 "er."
 
 #: ../../../app/views/pages/tools.html.erb:86
-msgid "The PWSend JSON API"
-msgstr "PWSend JSON API"
+msgid "The SafePass JSON API"
+msgstr "SafePass JSON API"
 
 #: ../../../app/views/pages/tools.html.erb:89
 msgid "Examples"
@@ -1122,18 +1122,18 @@ msgstr "Eksempler"
 #: ../../../app/views/pages/tools.html.erb:98
 msgid ""
 "You can test this in your browser Javascript console by going to the front pag"
-"e of PWSend and enter:"
+"e of SafePass and enter:"
 msgstr ""
 "Du kan teste dette i din browsers Javascript-konsol ved at gå til forsiden af "
-"PWSend og indtaste:"
+"SafePass og indtaste:"
 
 #: ../../../app/views/pages/tools.html.erb:106
 msgid "See more explanation and examples in our"
 msgstr "Se flere forklaringer og eksempler i vores"
 
 #: ../../../app/views/pages/translate.html.erb:1
-msgid "Help Translate PWSend!"
-msgstr "Hjælp med at oversætte PWSend!"
+msgid "Help Translate SafePass!"
+msgstr "Hjælp med at oversætte SafePass!"
 
 #: ../../../app/views/pages/translate.html.erb:3
 msgid "Help Translate"
@@ -1224,8 +1224,8 @@ msgstr ""
 "ionen."
 
 #: ../../../app/views/pages/translate.html.erb:61
-msgid "Thanks for helping to translate PWSend!"
-msgstr "Tak for hjælpen med at oversætte PWSend!"
+msgid "Thanks for helping to translate SafePass!"
+msgstr "Tak for hjælpen med at oversætte SafePass!"
 
 #: ../../../app/views/passwords/audit.html.erb:1
 msgid "Audit Log for %s"
@@ -1720,8 +1720,8 @@ msgid "Send Feeback"
 msgstr "Send feedback"
 
 #: ../../../app/views/shared/_header.html.erb:8
-msgid "PWSend Logo"
-msgstr "PWSend-logo"
+msgid "SafePass Logo"
+msgstr "SafePass-logo"
 
 #: ../../../app/views/shared/_header.html.erb:14
 msgid "Go Ahead.  Email Another Password."

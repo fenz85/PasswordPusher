@@ -53,42 +53,125 @@
           <%= _('If you’re interested in finding out more about why you should be using SafePass instead of other methods to send sensitive information, you can continue to read below, otherwise just tell your friends and family how great SafePass is, and please make sure to not send another password using email ever again!') %>
         </p>
 
-
-
-
-        <p><%= _('If you would like to improve an existing language or add a new one') %>
-            <%= link_to _('please read this page'), page_path('translate') %>.
-        </p>
-
-        <h5 class='border-bottom my-3 py-3'><%= _('Want to Help Out in Another Way?') %></h5>
+        <h5 class='border-bottom my-3 py-3'><%= _('Why SafePass?') %></h5>
 
         <p>
-            <strong>
-                <%= _('By far the biggest help is to spread the word') %>:
-            </strong>
-            <%= _('Share and suggest PWSend to colleagues and friends.  If you are giving a presentation or writing a blog post, feel free to contact me for any questions.') %>
+          <%= _('Whenever you have to send something confidential to a colleague or friend, you don’t want that information to persist indefinitely. Depending on how you choose to transmit that information, it could potentially sit around forever and be exploited by others long after you’ve forgotten what you’ve sent.') %>
         </p>
 
-        <p><%= _('You can also') %>:</p>
-        <ol class="list-group list-group-numbered">
-          <li class="list-group-item">
-            <%= _('Follow PWSend on') %>
-            <a href="https://www.facebook.com/pwpush" target="_blank">Facebook</a>,
-            <a href="https://twitter.com/pwpush" target="_blank">Twitter</a>
-            <%= _('or') %>
-            <a href="https://github.com/pglombardo" target="_blank">Github</a>
-            <%= _('and') %>
-            <a href="https://github.com/pglombardo/PasswordPusher" target="_blank"><%= _('star the Github project') %></a>.
-          </li>
-          <li class="list-group-item">
-            <%= _('Code fixes, documentation and 3rd party integrations are always welcome on') %> <a href="https://github.com/pglombardo/PasswordPusher" target="_blank">Github</a>.
-          </li>
-          <li class="list-group-item">
-            <%= _('Help translating a current or new language for the site.') %>
-          </li>
-        </ol>
+        <p>
+          <%= _('Most people immediately think of email or one of the many chat systems as a method for sending information. Email has some inherent security drawbacks, some of which are not that evident:') %>
+        </p>
 
-        <p class='mt-3'><%= _('Thank you for supporting PWSend!') %></p>
+        <p>
+          <%= _('1. Email is inherently insecure and can be intercepted at multiple points of delivery by malicious entitities.') %>
+        </p>
+
+        <p>
+          <%= _('2.	Emailed passwords are usually sent with context to what they go to which is equivalent to a free tip to any malicious entities.') %>
+        </p>
+
+        <p>
+          <%= _('3.	The email addresses and headers can give a clue to what the password may go to (such as company or corporation).') %>
+        </p>
+
+        <p>
+          <%= _('4.	Emailed passwords live in perpetuity (read: forever) in email archives.') %>
+        </p>
+
+        <p>
+          <%= _('5.	Passwords in email can be retrieved and used months or years later if an email account is eventually compromised.') %>
+        </p>
+
+        <p>
+          <%= _('6.	After an email is sent, you have zero control on the where, when and how long that email will exist for.') %>
+        </p>
+
+        <p>
+          <%= _('As for chat systems, some are more secure than others, but regardless, all of them have some drawbacks as well:') %>
+        </p>
+
+        <p>
+          <%= _('1.	A compromised account can access sensitive information posted months or years ago') %>
+        </p>
+
+        <p>
+          <%= _('2.	Companies and organizations are often required by law to maintain chat logs for some period of time.') %>
+        </p>
+
+        <p>
+          <%= _('3.	Chat systems leave a local cache on devices that can often be accesses outside of the chat software.') %>
+        </p>
+
+        <h5 class='border-bottom my-3 py-3'><%= _('What Would Be The Best Case Scenario?') %></h5>
+
+        <p>
+          <%= _('So given all of the complexities and drawbacks above, what would be the ideal solution?') %>
+        </p>
+
+        <p>
+          <%= _('The best case scenario for transmitting a secure password would have the following features:') %>
+        </p>
+
+        <p>
+          <%= _('1.	The location of the password would be secret and known only to you and whom you communicate it to.') %>
+        </p>
+
+        <p>
+          <%= _('2.	The password would be stored encrypted and if transmitted, over an encrypted line (HTTPS).') %>
+        </p>
+
+        <p>
+          <%= _('3.	If left untouched, the password would automatically expire and delete itself after a number of views or days has passed.') %>
+        </p>
+
+        <p>
+          <%= _('4.	The end user can delete the password as acknowledgement once they successfully retrieve it.') %>
+        </p>
+
+        <p>
+          <%= _('5.	You could manually delete the password entirely yourself at anytime.') %>
+        </p>
+
+        <h5 class='border-bottom my-3 py-3'><%= _('SafePass') %></h5>
+
+        <p>
+          <%= _('SafePass comes as a solution to the sharing of credentials issue, and we’re confident it’s the best solution to communicate passwords securely.') %>
+        </p>
+
+        <p>
+          <%= _('With SafePass, the password is stored at a secret URL which then expires after a certain number of views or days (whichever occurs first).') %>
+        </p>
+
+        <p>
+          <%= _('Here are some of the highlights:') %>
+        </p>
+
+        <p>
+          <%= _('1.	Passwords expire after a number of views or days') %>
+        </p>
+
+        <p>
+          <%= _('2.	Pushed passwords are stored encrypted') %>
+        </p>
+
+        <p>
+          <%= _('3.	Location of the password is secret and known only to you and who you communicate it to.') %>
+        </p>
+
+        <p>
+          <%= _('4.	The end user can delete the password as acknowledgement once they successfully receive it.') %>
+        </p>
+
+        <p>
+          <%= _('5.	Optional 1-click preliminary retrieval step to avoid URL scanners') %>
+        </p>
+
+        <p>
+          <%= _('Hopefully all of the above is enough for anyone reading it to stop using insecure methods to send credentials over the internet...') %>
+        </p>
+
+        <p class='mt-3'><%= _('Thank you for supporting using SafePass and spreading the word!') %></p>
 
     </div>
 </div>

@@ -2,7 +2,7 @@
 
 <h4 class='border-bottom mb-5 py-3'><em class="bi bi-tools"></em> <%= _('Tools & Applications') %></h4>
 
-<p><%= _('Using the JSON API, various tools exist to interface with PWSend to automate password distribution.') %></p>
+<p><%= _('Using the JSON API, various tools exist to interface with SafePass to automate password distribution.') %></p>
 
 <p><%= _('We have no limits on how many passwords you can push (and have no intentions of adding limits) but we do have a rate limiter so the site doesn’t get taken down by bad scripts or bad actors.  Limit your tools to maximum 1 password every few seconds and you should be fine.') %></p>
 
@@ -40,7 +40,7 @@
           <h5 class="mb-1"><em class="bi bi-github"></em> abkierstein/pwpush</h5>
           <small class="text-muted">By abkierstein</small>
         </div>
-        <p class="mb-1">Command line Python PWSend via pwpush.com</p>
+        <p class="mb-1">Command line Python SafePass via pwpush.com</p>
         <small class="text-muted">Python Script</small>
       </a>
     </div>
@@ -70,7 +70,7 @@
           <h5 class="mb-1"><em class="bi bi-award"></em>Alfred Workflow</h5>
           <small class="text-muted">By pglombardo</small>
         </div>
-        <p class="mb-1">Easily and quickly push passwords to PWSend</p>
+        <p class="mb-1">Easily and quickly push passwords to SafePass</p>
         <small class="text-muted">Productivity App for macOS</small>
       </a>
     </div>
@@ -80,10 +80,10 @@
 
 <h5 class='border-bottom my-3 py-3'><em class="bi bi-gear-wide-connected"></em> JSON API</h5>
 
-<p><%= _('This API allows you to interface with PWSend via JSON.  This can be utilized by existing utilities such as curl, wget or any programming language.  See the examples below for some ideas.') %></p>
+<p><%= _('This API allows you to interface with SafePass via JSON.  This can be utilized by existing utilities such as curl, wget or any programming language.  See the examples below for some ideas.') %></p>
 
 <ul>
-  <li><a href="https://github.com/pglombardo/PasswordPusher/wiki/Password-API"><%= _('The PWSend JSON API') %></a></li>
+  <li><a href="https://github.com/pglombardo/PasswordPusher/wiki/Password-API"><%= _('The SafePass JSON API') %></a></li>
 </ul>
 
 <h5 class='border-bottom my-3 py-3'><em class="bi bi-speedometer"></em> <%= _('Examples') %></h5>
@@ -95,7 +95,7 @@
 
 <h6 class='border-bottom my-3 py-3'>Browser Dev Console</h6>
 
-<p><%= _('You can test this in your browser Javascript console by going to the front page of PWSend and enter:') %></p>
+<p><%= _('You can test this in your browser Javascript console by going to the front page of SafePass and enter:') %></p>
 
 <pre class="border p-3"><code> $.post('https://pwpush.com/p.json',
          { 'password[payload]': 'mypassword', 'password[expire_after_days]': '2',

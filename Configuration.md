@@ -7,7 +7,7 @@ See also `config/environment.rb`.
 
 ## Application Encryption
 
-PWSend encrypts sensitive data in the database. This requires a randomly generated encryption key for each application instance.
+SafePass encrypts sensitive data in the database. This requires a randomly generated encryption key for each application instance.
 
 To set a custom encryption key for your application, set the environment variable `PWPUSH_MASTER_KEY`:
 
@@ -26,7 +26,7 @@ Lockbox.generate_key
 Notes:
 
 * If an encryption key isn't provided, a default key will be used.
-* The best security for private instances of PWSend is to use your own custom encryption key although it is not required.
+* The best security for private instances of SafePass is to use your own custom encryption key although it is not required.
 * The risk in using the default key is lessened if you keep your instance secure and your push expirations short. e.g. 1 day/1 view versus 100 days/100 views.
 * Once a push expires, all encrypted data is deleted.
 * Changing an encryption key where old pushes already exist will make those older pushes unreadable. In other words, the payloads will be garbled. New pushes going forward will work fine.

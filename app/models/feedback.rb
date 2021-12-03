@@ -12,7 +12,7 @@ class Feedback < MailForm::Base
   # in ActionMailer accepts.
   def headers
     {
-      subject: _('PWSend Feedback'),
+      subject: _('SafePass Feedback'),
       to: 'feedback@pwpush.com',
       from: Settings.mail.mailer_sender
     }

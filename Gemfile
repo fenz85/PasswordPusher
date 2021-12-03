@@ -43,13 +43,13 @@ gem 'rack-attack'
 # OSX: ../src/utils.h:33:10: fatal error: 'climits' file not found
 # From:
 # # 1. Install v8 ourselves
-# $ brew install v8-315
+$ brew install v8-315
 # # 2. Install libv8 using the v8 binary we just installed
-# $ gem install libv8 -v '3.16.14.19' -- --with-system-v8
+$ gem install libv8 -v '3.16.14.19' -- --with-system-v8
 # # 3. Install therubyracer using the v8 binary we just installed
-# $ gem install therubyracer -- --with-v8-dir=/usr/local/opt/v8@315
+$ gem install therubyracer -- --with-v8-dir=/usr/local/opt/v8@315
 # # 4. Install the remaining dependencies
-# $ bundle install
+$ bundle install
 # gem 'therubyracer'
 #
 gem 'ezcrypto', :git => 'https://github.com/pglombardo/ezcrypto.git'

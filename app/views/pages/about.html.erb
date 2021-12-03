@@ -1,48 +1,61 @@
-<% title(_('About PWSend')) %>
+<% title(_('What is SafePass')) %>
 <h4 class='border-bottom my-3 py-3'><%= _('About') %></h4>
 
 <div class="row">
     <div class="col-8">
         <p>
-            <%= _('PWSend is an application to communicate passwords over the web. Links to passwords
-            expire after a certain number of views and/or time has passed.') %>
+            <%= _('SafePass is an application to communicate passwords or any other sensitive information over the web. It generates links that expire after a certain number of views or time has passed.') %>
         </p>
         <p>
-            <%= _('Hosted at') %>
-            <%= link_to 'pwpush.com', 'https://pwpush.com' %>
-            <%= _('or you can run your own private instance wherever you like.') %>
+            <%= _('One of our core values at Fisheye is sharing our knowledge. So often we see people sending passwords using insecure methods, we decided it was about time to come up with a FREE service that’s available to EVERYONE, and that would allow users to share secrets easily and in a secure way.') %>
+        </p>
+
+        <h5 class='border-bottom my-3 py-3'><%= _('Wait up, is it FREE?') %></h5>
+
+        <p>
+            <%= _('Yes, SafePass is free and available to everyone at') %>
+            <a href="https://www.safepass.nz" target="_blank">www.safepass.nz</a>
         </p>
 
         <p>
-            <%= _('The source code is') %>
-            <a href="https://github.com/pglombardo/PasswordPusher" target="_blank"><%= _('on Github') %></a>.
-            <%= _('It’s opensource and free for anyone to use, review or modify.') %>
+            <%= _('We take cybersecurity very seriously and believe firmly that user mistakes are the most common cause of attacks, so we wanted to make sure there are no excuses on why anyone should keep sending sensitive data insecurely after hearing about SafePass.') %>
         </p>
 
-        <h5 class='border-bottom my-3 py-3'><%= _('The Author') %></h5>
+        <h5 class='border-bottom my-3 py-3'><%= _('Is it only for passwords?') %></h5>
 
         <p>
-            <%= _('My name is Peter Giacomo Lombardo. You can find me on') %>
-            <a href="https://www.linkedin.com/in/peterlombardo/" target="_blank">LinkedIn</a>,
-            <a href="https://github.com/pglombardo" target="_blank">Github</a>
-            <%= _('or') %>
-            <a href="https://the0x00.dev" target="_blank">The OxOO</a>.</p>
-
+            <%= _('Absolutely not, but of course passwords are the first thing that comes to mind when thinking about sensitive data. You can use SafePass to securely share other things like credit card details, your super-safe-vault’s combination, or a love message to your significant other.') %>
+        </p>
         <p>
-            <%= _('For updates, you can') %>
-            <%= link_to _('follow me on Twitter'), 'https://twitter.com/pwpush', target: '_blank' %>
-            <%= _('or') %>
-            <%= link_to _('on Github'), 'https://github.com/pglombardo', target: '_blank' %>.
+            <%= _('In fact, we’re keen to hear what other people might be finding it useful for so feel free to share your ideas at ') %>
+            <a href="mailto:info@fisheye.co.nz" target="_blank">info@fisheye.co.nz</a>
         </p>
 
-        <h5 class='border-bottom my-3 py-3'><%= _('Contributors') %></h5>
+        <h5 class='border-bottom my-3 py-3'><%= _('I’m not Fisheye’s client, can I use it anyway?') %></h5>
 
         <p>
-            <%= _('PWSend has had a great community of contributors over the years.') %>
-            <a href="https://github.com/pglombardo/PasswordPusher/graphs/contributors" target="_blank"><%= _('Take a look') %></a>.</p>
+            <%= _('Yes, SafePass is FREE (have we already said that?) and available to EVERYONE. Not only we encourage you to use it… we’d also appreciate if you spread the word and tell your colleagues, friends and family how SafePass has entirely changed your life and how much better you’re sleeping at night since you started using it!') %>
+        </p>
 
-        <h5 class='border-bottom my-3 py-3'><%= _('Help Translate!') %></h5>
-        <p><%= _('We would love to add more languages but we need fluent speakers to validate translations.') %></p>
+        <h5 class='border-bottom my-3 py-3'><%= _('Wow, you guys at Fisheye are awesome!!') %></h5>
+
+        <p>
+          <%= _('We do our best to keep our clients and the community safe and secure, but we’re not reinventing the wheel here. SafePass is powered by pwpush, a free open source project written by Peter Giacomo Lombardo.') %>
+        </p>
+
+        <p>
+            <%= _('You can find more information on ') %>
+            <a href="https://github.com/pglombardo/PasswordPusher" target="_blank">Github</a>
+            <%= _('and the original project is hosted openly and free for use at ') %>
+            <a href="https://pwpush.com" target="_blank">pwpush.com</a>
+        </p>
+        <p>
+          <%= _('If you’re interested in finding out more about why you should be using SafePass instead of other methods to send sensitive information, you can continue to read below, otherwise just tell your friends and family how great SafePass is, and please make sure to not send another password using email ever again!') %>
+        </p>
+
+
+
+
         <p><%= _('If you would like to improve an existing language or add a new one') %>
             <%= link_to _('please read this page'), page_path('translate') %>.
         </p>
